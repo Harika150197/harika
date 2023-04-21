@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "486815361121",
+    "project_id": "vyuha-restaurant",
+    "storage_bucket": "vyuha-restaurant.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:486815361121:android:7de6b8dd00f101b06b2220",
+        "android_client_info": {
+          "package_name": "com.example.c2327190.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "486815361121-n97rfvjpmk52ptlcpp0gr0s7rcvjatkm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.c2327190.app",
+            "certificate_hash": "e53d72dd4f53a56c64fc6ef9421f68e9bb6a33a8"
+          }
+        },
+        {
+          "client_id": "486815361121-s5g0jl27lr3ofmou3guuh80kan4sc6cv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDZFDCGzeLolf_RWygiYVhJsNatKUzegZE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "486815361121-s5g0jl27lr3ofmou3guuh80kan4sc6cv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
