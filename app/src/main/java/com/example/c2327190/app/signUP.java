@@ -3,8 +3,8 @@ package com.example.c2327190.app;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
-// This is test
-public class SignUp extends AppCompatActivity {
+
+public class signUP extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
