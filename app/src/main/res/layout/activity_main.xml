@@ -1,35 +1,76 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
-    android:orientation="vertical">
-
-
-    <SearchView
+    tools:context=".MainActivity">
+    <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:queryHint="Search Here"
-        android:iconifiedByDefault="false"
-        android:id="@+id/searchView"/>
-
-    <ListView
+        android:text="Welcome to\n Vyuha Restaurant Groups"
+        android:id="@+id/wel"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:textStyle="italic"
+        android:textColor="#ff0000"
+        android:layout_marginBottom="20dp"/>
+    <ScrollView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:id="@+id/resList"/>
+        android:layout_below="@id/wel">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/rest1"
+                android:id="@+id/reddy"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Reddy Gaari Restaurant"
+                android:textSize="26sp"
+                android:textStyle="bold"
+                android:paddingBottom="20dp"
+                android:layout_marginLeft="20dp"
+                android:textColor="@color/purple_700"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/rest2"
+                android:id="@+id/green"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Green Garden Restaurant"
+                android:textSize="26sp"
+                android:textStyle="bold"
+                android:paddingBottom="20dp"
+                android:layout_marginLeft="20dp"
+                android:textColor="@color/purple_700"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/rest3"
+                android:id="@+id/peter"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Peter Rabbit Restaurant"
+                android:textSize="26sp"
+                android:textStyle="bold"
+                android:paddingBottom="20dp"
+                android:layout_marginLeft="20dp"
+                android:textColor="@color/purple_700"/>
+
+        </LinearLayout>
 
 
+    </ScrollView>
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-</LinearLayout>
+</RelativeLayout>
