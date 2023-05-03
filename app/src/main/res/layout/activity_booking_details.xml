@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/tablebook"
+
+    tools:context=".BookingDetails">
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#92000000"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Booking Details"
+        android:id="@+id/details"
+        android:gravity="center"
+        android:textSize="35sp"
+        android:layout_marginTop="150dp"
+        android:layout_marginBottom="50dp"
+        android:textColor="#ffffff"/>
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/details"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="15dp"
+        android:background="#90000000"
+        android:hint="  Booking Refernce Name"
+        android:inputType="text"
+        android:padding="15dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/name"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="15dp"
+        android:background="#90000000"
+        android:hint="  Mobile Number"
+        android:inputType="number"
+        android:padding="15dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Number of Persons"
+        android:layout_marginLeft="15dp"
+        android:layout_below="@id/number"
+        android:id="@+id/persons"
+        android:textSize="26sp"
+        android:textStyle="italic"
+        android:textColor="@color/white"
+        android:layout_marginBottom="15dp"/>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:orientation="horizontal"
+        android:layout_below="@id/persons"
+        android:gravity="center"
+        android:id="@+id/count">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="-"
+            android:textSize="30sp"
+            android:id="@+id/dec"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:id="@+id/display"
+            android:layout_marginHorizontal="30dp"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+"
+            android:textSize="30sp"
+            android:id="@+id/inc"/>
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Confirm Booking"
+        android:textSize="22sp"
+        android:paddingVertical="12dp"
+        android:id="@+id/confirm"
+        android:layout_below="@id/count"
+        android:layout_marginTop="20dp"
+        android:layout_marginHorizontal="15dp"
+        android:backgroundTint="@color/white"
+        android:textColor="#ff0000"/>
+
+</RelativeLayout>

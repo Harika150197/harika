@@ -13,6 +13,20 @@
         android:theme="@style/Theme.App"
         tools:targetApi="31">
         <activity
+            android:name=".Confirmed"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".BookingDetails"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name=".BookTable"
             android:exported="false">
             <meta-data
