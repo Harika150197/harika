@@ -62,7 +62,7 @@
                 <ImageView
                     android:layout_width="70dp"
                     android:layout_height="70dp"
-                    android:src="@drawable/idly"/>
+                    android:src="@drawable/Pizza"/>
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -72,38 +72,7 @@
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Idly and Sambar"
-                        android:textSize="20sp"
-                        android:textColor="@color/purple_200"/>
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="Price: $6"
-                        android:textSize="18sp"
-                        android:textStyle="bold"/>
-                </LinearLayout>
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:elevation="5dp"
-                android:layout_marginVertical="10dp">
-                <ImageView
-                    android:layout_width="70dp"
-                    android:layout_height="70dp"
-                    android:src="@drawable/dosa"/>
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="vertical"
-                    android:layout_marginLeft="15dp"
-                    android:paddingVertical="5dp">
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="Masala Dosa with Chutney"
+                        android:text="Pizzas"
                         android:textSize="20sp"
                         android:textColor="@color/purple_200"/>
                     <TextView
@@ -124,7 +93,7 @@
                 <ImageView
                     android:layout_width="70dp"
                     android:layout_height="70dp"
-                    android:src="@drawable/Poori"/>
+                    android:src="@drawable/burger"/>
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -134,13 +103,13 @@
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Poory with Curry"
+                        android:text="Burgers"
                         android:textSize="20sp"
                         android:textColor="@color/purple_200"/>
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Price: $10"
+                        android:text="Price: $5"
                         android:textSize="18sp"
                         android:textStyle="bold"/>
                 </LinearLayout>
@@ -155,7 +124,7 @@
                 <ImageView
                     android:layout_width="70dp"
                     android:layout_height="70dp"
-                    android:src="@drawable/lemon"/>
+                    android:src="@drawable/salad"/>
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -165,13 +134,13 @@
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Lemon Rice"
+                        android:text="Salads"
                         android:textSize="20sp"
                         android:textColor="@color/purple_200"/>
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Price: $8"
+                        android:text="Price: $4"
                         android:textSize="18sp"
                         android:textStyle="bold"/>
                 </LinearLayout>
@@ -186,7 +155,7 @@
                 <ImageView
                     android:layout_width="70dp"
                     android:layout_height="70dp"
-                    android:src="@drawable/coffee"/>
+                    android:src="@drawable/ice"/>
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -196,13 +165,44 @@
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Filter Coffee"
+                        android:text="Ice Creams"
                         android:textSize="20sp"
                         android:textColor="@color/purple_200"/>
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="Price: $6"
+                        android:textSize="18sp"
+                        android:textStyle="bold"/>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:elevation="5dp"
+                android:layout_marginVertical="10dp">
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:src="@drawable/milk"/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="15dp"
+                    android:paddingVertical="5dp">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Milk Shakes"
+                        android:textSize="20sp"
+                        android:textColor="@color/purple_200"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Price: $3"
                         android:textSize="18sp"
                         android:textStyle="bold"/>
                 </LinearLayout>
