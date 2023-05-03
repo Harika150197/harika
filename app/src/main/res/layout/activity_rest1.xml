@@ -1,9 +1,226 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Rest1">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/rest1"
+        android:id="@+id/banner"
+        android:paddingBottom="10dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@id/banner"
+        android:id="@+id/wel">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Welcome to\n Reddy Gaari Restaurant"
+            android:textStyle="italic"
+            android:textSize="26sp"
+            android:textColor="@color/purple_500"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum"
+            android:textSize="16sp"
+            android:layout_marginVertical="5dp"
+            android:textColor="@color/black"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Menu List"
+            android:textColor="@color/purple_500"
+            android:textSize="26sp"/>
+    </LinearLayout>
+
+   <ScrollView
+       android:layout_width="match_parent"
+       android:layout_height="260dp"
+       android:layout_below="@id/wel"
+       android:paddingHorizontal="20dp"
+       android:id="@+id/items">
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="vertical">
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:orientation="horizontal"
+               android:elevation="5dp"
+               android:layout_marginVertical="10dp">
+               <ImageView
+                   android:layout_width="70dp"
+                   android:layout_height="70dp"
+                   android:src="@drawable/biryani"/>
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:orientation="vertical"
+                   android:layout_marginLeft="15dp"
+                   android:paddingVertical="5dp">
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:text="Hyderabadi Chicken Biryani"
+                       android:textSize="20sp"
+                       android:textColor="@color/purple_200"/>
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:text="Price: $30"
+                       android:textSize="18sp"
+                       android:textStyle="bold"/>
+               </LinearLayout>
+           </LinearLayout>
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:orientation="horizontal"
+               android:elevation="5dp"
+               android:layout_marginVertical="10dp">
+               <ImageView
+                   android:layout_width="70dp"
+                   android:layout_height="70dp"
+                   android:src="@drawable/chicken"/>
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:orientation="vertical"
+                   android:layout_marginLeft="15dp"
+                   android:paddingVertical="5dp">
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:text="Butter Chicken"
+                       android:textSize="20sp"
+                       android:textColor="@color/purple_200"/>
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:text="Price: $10"
+                       android:textSize="18sp"
+                       android:textStyle="bold"/>
+               </LinearLayout>
+           </LinearLayout>
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:orientation="horizontal"
+               android:elevation="5dp"
+               android:layout_marginVertical="10dp">
+               <ImageView
+                   android:layout_width="70dp"
+                   android:layout_height="70dp"
+                   android:src="@drawable/fishfry"/>
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:orientation="vertical"
+                   android:layout_marginLeft="15dp"
+                   android:paddingVertical="5dp">
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:text="Fish Fry"
+                       android:textSize="20sp"
+                       android:textColor="@color/purple_200"/>
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:text="Price: $20"
+                       android:textSize="18sp"
+                       android:textStyle="bold"/>
+               </LinearLayout>
+           </LinearLayout>
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:orientation="horizontal"
+               android:elevation="5dp"
+               android:layout_marginVertical="10dp">
+               <ImageView
+                   android:layout_width="70dp"
+                   android:layout_height="70dp"
+                   android:src="@drawable/rice"/>
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:orientation="vertical"
+                   android:layout_marginLeft="15dp"
+                   android:paddingVertical="5dp">
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:text="White Rice"
+                       android:textSize="20sp"
+                       android:textColor="@color/purple_200"/>
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:text="Price: $15"
+                       android:textSize="18sp"
+                       android:textStyle="bold"/>
+               </LinearLayout>
+           </LinearLayout>
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:orientation="horizontal"
+               android:elevation="5dp"
+               android:layout_marginVertical="10dp">
+               <ImageView
+                   android:layout_width="70dp"
+                   android:layout_height="70dp"
+                   android:src="@drawable/curdrice"/>
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:orientation="vertical"
+                   android:layout_marginLeft="15dp"
+                   android:paddingVertical="5dp">
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:text="Curd Rice with Pickle"
+                       android:textSize="20sp"
+                       android:textColor="@color/purple_200"/>
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:text="Price: $25"
+                       android:textSize="18sp"
+                       android:textStyle="bold"/>
+               </LinearLayout>
+           </LinearLayout>
+
+       </LinearLayout>
+
+   </ScrollView>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Book A Table"
+        android:layout_below="@id/items"
+        android:id="@+id/book"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"></Button>
+
+
+
+
+
+</RelativeLayout>
