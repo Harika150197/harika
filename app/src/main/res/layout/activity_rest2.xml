@@ -10,7 +10,8 @@
         android:layout_height="wrap_content"
         android:src="@drawable/rest2"
         android:id="@+id/banner"
-        android:paddingBottom="10dp"/>
+        android:paddingBottom="10dp"
+        android:layout_marginTop="20dp"/>
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -61,7 +62,8 @@
                 <ImageView
                     android:layout_width="70dp"
                     android:layout_height="70dp"
-                    android:src="@drawable/idly"/>
+                    android:src="@drawable/idly"
+                    android:id="@+id/menu1"/>
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -79,7 +81,8 @@
                         android:layout_height="wrap_content"
                         android:text="Price: $6"
                         android:textSize="18sp"
-                        android:textStyle="bold"/>
+                        android:textStyle="bold"
+                        android:id="@+id/price1"/>
                 </LinearLayout>
             </LinearLayout>
 
@@ -92,7 +95,8 @@
                 <ImageView
                     android:layout_width="70dp"
                     android:layout_height="70dp"
-                    android:src="@drawable/dosa"/>
+                    android:src="@drawable/dosa"
+                    android:id="@+id/menu2"/>
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -110,7 +114,8 @@
                         android:layout_height="wrap_content"
                         android:text="Price: $10"
                         android:textSize="18sp"
-                        android:textStyle="bold"/>
+                        android:textStyle="bold"
+                        android:id="@+id/price2"/>
                 </LinearLayout>
             </LinearLayout>
 
@@ -123,7 +128,8 @@
                 <ImageView
                     android:layout_width="70dp"
                     android:layout_height="70dp"
-                    android:src="@drawable/Poori"/>
+                    android:src="@drawable/poori"
+                    android:id="@+id/menu3"/>
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -141,7 +147,8 @@
                         android:layout_height="wrap_content"
                         android:text="Price: $10"
                         android:textSize="18sp"
-                        android:textStyle="bold"/>
+                        android:textStyle="bold"
+                        android:id="@+id/price3"/>
                 </LinearLayout>
             </LinearLayout>
 
@@ -154,7 +161,8 @@
                 <ImageView
                     android:layout_width="70dp"
                     android:layout_height="70dp"
-                    android:src="@drawable/lemon"/>
+                    android:src="@drawable/lemon"
+                    android:id="@+id/menu4"/>
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -172,7 +180,8 @@
                         android:layout_height="wrap_content"
                         android:text="Price: $8"
                         android:textSize="18sp"
-                        android:textStyle="bold"/>
+                        android:textStyle="bold"
+                        android:id="@+id/price4"/>
                 </LinearLayout>
             </LinearLayout>
 
@@ -185,7 +194,8 @@
                 <ImageView
                     android:layout_width="70dp"
                     android:layout_height="70dp"
-                    android:src="@drawable/coffee"/>
+                    android:src="@drawable/coffee"
+                    android:id="@+id/menu5"/>
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -203,7 +213,8 @@
                         android:layout_height="wrap_content"
                         android:text="Price: $6"
                         android:textSize="18sp"
-                        android:textStyle="bold"/>
+                        android:textStyle="bold"
+                        android:id="@+id/price5"/>
                 </LinearLayout>
             </LinearLayout>
 

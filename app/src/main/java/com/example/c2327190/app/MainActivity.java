@@ -102,7 +102,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 startActivity(new Intent(this, Rest2.class));
                 break;
             case R.id.peter:
-                startActivity(new Intent(this, Rest2.class));
+                startActivity(new Intent(this, Rest3.class));
                 break;
         }
     }
